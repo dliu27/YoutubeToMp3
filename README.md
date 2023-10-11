@@ -1,2 +1,12 @@
 # YoutubeToMp3
-Full-stack app to convert Youtube videos to MP3
+Full-stack app to convert and download Youtube videos to MP3 using React, Python, and Flask
+
+## Future Additions
+- Host on cloud + LRU cache to manage file storage
+- Support for multiple URLs
+- Spotify connection
+
+
+## Screens
+![image](https://github.com/dliu27/YoutubeToMp3/assets/48995019/8809205d-0b15-4951-886f-cdbbd1c6c765)
+![image](https://github.com/dliu27/YoutubeToMp3/assets/48995019/cc1ccbad-52b8-4171-998a-035963ad4bb3)
