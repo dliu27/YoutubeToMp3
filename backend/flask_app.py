@@ -19,7 +19,6 @@ def getYTAudio(URL):
         # filename which is author - title
         FILENAME = f"{yt.vid_info['videoDetails']['author']} - {yt.vid_info['videoDetails']['title']}.mp3"
         
-        print(yt.vid_info)
         # if file already exists, return this
         if os.path.exists(FILENAME):
             return FILENAME
