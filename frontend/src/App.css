@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.convert-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.download-container {
+  margin-top: 20px;
+}
+
+a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+
+.download-container {
+  text-align: center;
+}
+
+.download-button-container {
+  position: relative; /* Make position relative */
+  margin-top: 20px; /* Add margin to the top */
+
+}
+
+/* Styles for the download button */
+.download-button {
+  text-decoration: none; /* Remove underlines for links */
+  background-color: #0073e6; /* Set button background color */
+  color: #fff; /* Set button text color */
+  padding: 10px 20px; /* Add padding to the button */
+  border: none; /* Remove button border */
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #005bb8; /* Change background color on hover */
+}
