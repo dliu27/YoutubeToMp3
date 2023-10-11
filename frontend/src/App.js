@@ -57,7 +57,7 @@ function App() {
         const blob = await response.blob();
         const blobURL = URL.createObjectURL(blob);
         const contentDisposition = response.headers.get('Content-Disposition');
-        let filename = contentDisposition.split('filename=')[1];
+        let filename = contentDisposition.split('; ')[1].replace(/^filename=/g, '');
 
         // sanitize filename https://stackoverflow.com/questions/55341277/chrome-on-windows-adding-trailing-underscores-to-downloaded-files
         filename = filename.replace('"','') // replacing one " charcter
